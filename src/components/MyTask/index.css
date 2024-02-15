@@ -1,0 +1,135 @@
+.task-container {
+  background-color: #1a171d;
+  background-size: cover;
+  height: 100vh;
+  padding: 5px;
+  display: flex;
+  flex-direction: column;
+  width: 35%;
+}
+.task-heading {
+  color: #f3aa4e;
+  font-family: 'Roboto';
+  align-items: center;
+  margin-left: 21%;
+  margin-top: 17%;
+}
+.input-field-container {
+  display: flex;
+  flex-direction: column;
+}
+.label {
+  color: #ffffff;
+  font-family: 'Roboto';
+  padding-bottom: 5px;
+  margin-left: 12%;
+}
+.input {
+  height: 35px;
+  width: 50%;
+  color: #64748b;
+  font-family: 'Roboto';
+  padding: 5px;
+  font-size: 15px;
+  margin-bottom: 10%;
+  margin-right: 15%;
+  margin-left: 12%;
+  border-radius: 2px;
+  border-width: 0px;
+}
+.select {
+  height: 35px;
+  width: 50%;
+  color: #64748b;
+  font-family: 'Roboto';
+  padding: 5px;
+  font-size: 15px;
+  margin-left: 12%;
+  border-radius: 2px;
+  border-width: 0px;
+}
+.button {
+  background-color: #f3aa4e;
+  height: 35px;
+  width: 15%;
+  margin-top: 15px;
+  border-width: 0px;
+  border-radius: 5px;
+  color: #ffffff;
+  font-family: 'Roboto';
+  font-weight: bold;
+  margin-left: 29%;
+}
+.bg-container {
+  font-family: 'Roboto';
+  display: flex;
+}
+.tag-name {
+  color: #ffffff;
+  font-family: 'Roboto';
+  font-size: 25px;
+  margin-top: 7%;
+}
+.tag-container {
+  background-color: #000000;
+  background-size: cover;
+  height: 100vh;
+  width: 65%;
+  padding: 5px;
+}
+.list-items {
+  display: flex;
+}
+.list {
+  list-style-type: none;
+  margin: 15px;
+  margin-left: 0px;
+}
+.tag-button {
+  background-color: transparent;
+  color: white;
+  border: 1 px solid #f1f5f9;
+  border-radius: 15px;
+  height: 40px;
+  width: 110px;
+  font-family: 'Roboto';
+  font-weight: bold;
+}
+.heading {
+  color: #ffffff;
+  font-family: 'Roboto';
+  font-weight: bold;
+}
+.tasks-list-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #131213;
+  padding: 5px;
+  border-radius: 3px;
+  margin: 5px;
+}
+.tag-item-button {
+  background-color: #f3aa4e;
+  height: 40px;
+  border-width: 0px;
+  width: 120px;
+  margin-right: 15px;
+  color: #323f4b;
+  font-family: 'Roboto';
+  border-radius: 15px;
+  font-weight: bold;
+}
+.no-task {
+  color: #ffffff;
+  font-family: 'Roboto';
+  font-size: 25px;
+  font-weight: bold;
+}
+.no-task-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-top: 9%;
+}
